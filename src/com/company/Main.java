@@ -7,15 +7,13 @@ import com.company.service.Service;
 import java.io.IOException;
 import java.text.ParseException;
 
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
 import java.util.Scanner;
 
 public class Main {
 
     private static Service service;
 
-    public static void main(String[] args) throws ParseException {
+    public static void main(String[] args) {
         try {
             service = new Service();
 
